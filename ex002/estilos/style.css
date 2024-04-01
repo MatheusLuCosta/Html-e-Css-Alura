@@ -6,7 +6,7 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 
-body {
+body, main {
     width: 100vw;
     height: 100vh;
     background-color: rgba(0, 0, 0, 0.897);
@@ -52,7 +52,7 @@ img {
     position: relative;
     top: 50%;
     left: 50%;
-    transform: translate(-50%, -3%);
+    transform: translate(-50%, -80%);
     width: 300px;
     height: 300px;
 }
