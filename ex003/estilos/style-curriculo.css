@@ -20,7 +20,7 @@ body {
 
 .menu {
     display: flex;
-    gap: 80px;
+    gap: 60px;
 }
 
 .link-menu {
