@@ -31,7 +31,7 @@ body {
 
 .menu {
     display: flex;
-    gap: 80px;
+    gap: 60px;
 }
 
 .link-menu {
@@ -131,7 +131,7 @@ footer {
 
 @media screen and (max-width: 1200px) {
     .cabecalho {
-        padding: 5%;
+        padding: 10%;
     }
 
     .menu {
