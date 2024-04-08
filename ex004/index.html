@@ -3,16 +3,58 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../ex004/estilo/style.css">
+    <link rel="stylesheet" href="estilo/style.css">
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
     <title>Alura Plus</title>
+    <style>
+.principal {
+    background-image: url(Background.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    align-items: center;
+    text-align: center;
+}
+
+@media screen and (max-width: 768px) {
+
+.container {
+    display: block;
+    background-image: none;
+}
+
+.container-img {
+    width: 50vw;
+}
+
+.container-caixa {
+    margin: 2em 2em;
+}
+
+.secundario {
+    margin: 0;
+    text-align: center;
+}
+
+.secundario-img {
+    width: 50%;
+}
+
+.dispositivos-lista {
+    display: block;
+}
+
+.rodape-lista {
+    display: block;
+}
+}
+    </style>
 </head>
 
 <body> 
         <section class="container principal">
             <div class="container-caixa">
                 <h1 class="container-titulo">Com o Combo+, você pode aproveitar a Alura+ e o Alura Língua por um preço único.</h1>
-                <img src="/imagem/Combo.png" alt="O combo+ é a junção do alura+ e o alura lingua" class="container-img">
+                <img src="Combo.png" alt="O combo+ é a junção do alura+ e o alura lingua" class="container-img">
                 <a href="www.alura.com.br" class="container-botao">Assine por 12x de R$ 120,00*</a>
                 <a href="www.alura.com.br" class="container-botao botao-secundario">Assinar somente o Alura+</a>
                 <p class="container-aviso">*O preço pode variar caso a assinatura seja feita em outros planos.</p>
@@ -20,7 +62,7 @@
         </section>
 
         <section class="container secundario">
-            <img src="/imagem/Plataformas.png" alt="Um monitor e um celular com o alura plus aberto" class="secundario-img">
+            <img src="Plataformas.png" alt="Um monitor e um celular com o alura plus aberto" class="secundario-img">
             <div class="container-descricao">
                 <h2 class="descricao-titulo">Assita do seu jeito</h2>
                 <p class="descricao-texto">Aproveite a tela grande da TV ou assista no tablet, laptop, celular e outros aparelhos. Nossa seleção de cursos não para de crescer.</p>
@@ -32,11 +74,11 @@
                 <p class="descricao-texto">Só o Combo+ oferece Alura+ e Alura Língua juntos para você ter acesso a cursos de diversas áreas da tecnologia e aprender inglês ou espanhol, onde e como quiser.</p>
                 <a href="www.alura.com.br" class="container-botao secundario-botao">Assinar o Combo+</a>
             </div>
-            <img src="/imagem/Telas.png" alt="Tela da alura plus e do alura lingua" class="secundario-img">
+            <img src="Telas.png" alt="Tela da alura plus e do alura lingua" class="secundario-img">
         </section>
 
         <section class="container secundario">
-            <img src="/imagem/Notebook.png" alt="NOtebook com a página do curos aberta." class="secundario-img">
+            <img src="Notebook.png" alt="NOtebook com a página do curos aberta." class="secundario-img">
             <div class="container-descricao">
                 <h2 class="descricao-titulo">Baixe seus cursos</h2>
                 <p class="descricao-texto">Baixe e assista quando e onde quiser. Assim, seus favoritos estão sempre com você, até mesmo sem internet.</p>
@@ -46,14 +88,14 @@
         <section class="dispositivos">
             <h2 class="dispositivos-titulo">Disponível nos seus dispositivos favoritos</h2>
             <ul class="dispositivos-lista ">
-                <li><img src="/imagem/tv.png" alt="Ícone de televisão"><h3 class="lista-item">TV</h3></li>
-                <li><img src="/imagem/computador.png" alt="ícone de computador"><h3 class="lista-item">Computadores</h3></li>
-                <li><img src="/imagem/celular.png" alt="ícone de celular"><h3 class="lista-item">Celuar</h3></li>
+                <li><img src="tv.png" alt="Ícone de televisão"><h3 class="lista-item">TV</h3></li>
+                <li><img src="computador.png"ícone de computador"><h3 class="lista-item">Computadores</h3></li>
+                <li><img src="celular.png" alt="ícone de celular"><h3 class="lista-item">Celuar</h3></li>
             </ul>
         </section>
 </body>
     <footer class="rodape">
-            <img src="/imagem/Logo.png" alt="Alura+" class="rodape-logo">
+            <img src="Logo.png" alt="Alura+" class="rodape-logo">
             <ul class="rodape-lista">
                 <li class="lista-link"><a href="#">Idioma</a></li>
                 <li class="lista-link"><a href="#">Dispositivos compatíveis</a></li>
